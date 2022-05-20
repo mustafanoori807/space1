@@ -1,0 +1,36 @@
+body{
+    width: 626px;
+    height: 438px;
+}
+/* space 1 */
+
+.space{
+    position: relative;
+    width: 626px;
+    height: 438px;
+    background: url(https://stepik.org/media/attachments/lesson/452681/space.png);
+}
+
+
+/* rocket 1 */
+
+.rocket{
+    position:absolute;
+    width: 55.94px;
+    height: 107.17px;
+    transform: rotate(30.55deg);
+    left: 200px;
+    bottom: 180px;
+    z-index: 1;
+}
+
+/* mars 1 */
+
+.planet {
+    position: absolute;
+    width: 396px;
+    height: 347px;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+}
